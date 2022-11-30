@@ -13,12 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('pizza', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->timestamps();
-            $table->string('type');
-            $table->string('base');
-            $table->string('name');
+        Schema::table('pizza', function (Blueprint $table) {
+            $table->float('price');
         });
     }
 
@@ -29,6 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pizza');
+        Schema::table('pizza', function (Blueprint $table) {
+            //
+        });
     }
 };

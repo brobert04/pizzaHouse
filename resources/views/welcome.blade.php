@@ -16,11 +16,10 @@
             @endif
 
             <div class="content">
-                <img src="/img/img.png" id="logo">
+                <img style="display: inline;" src="/img/img.png" id="logo">
                 <div class="title m-b-md">
                     The North's Best Pizzas
                 </div>
-
 {{--                <div class="links">--}}
 {{--                    <a href="https://laravel.com/docs">Docs</a>--}}
 {{--                    <a href="https://laracasts.com">Laracasts</a>--}}
