@@ -14,22 +14,15 @@
                     @endauth
                 </div>
             @endif
-
             <div class="content">
                 <img style="display: inline;" src="/img/img.png" id="logo">
                 <div class="title m-b-md">
                     The North's Best Pizzas
                 </div>
-{{--                <div class="links">--}}
-{{--                    <a href="https://laravel.com/docs">Docs</a>--}}
-{{--                    <a href="https://laracasts.com">Laracasts</a>--}}
-{{--                    <a href="https://laravel-news.com">News</a>--}}
-{{--                    <a href="https://blog.laravel.com">Blog</a>--}}
-{{--                    <a href="https://nova.laravel.com">Nova</a>--}}
-{{--                    <a href="https://forge.laravel.com">Forge</a>--}}
-{{--                    <a href="https://vapor.laravel.com">Vapor</a>--}}
-{{--                    <a href="https://github.com/laravel/laravel">GitHub</a>--}}
-{{--                </div>--}}
+                <div class="links">
+                    <a href="/pizzas/create">Order</a>
+                </div>
+                <p style="color:green; font-width:bold; font-size: 20px;">{{session('msg')}}</p>
             </div>
         </div>
 @endsection

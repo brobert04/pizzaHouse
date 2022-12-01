@@ -9,7 +9,7 @@
         <!-- Styles -->
         <link rel="stylesheet" href="/css/main.css">
 
-        @vite('resources/css/app.css')
+        @vite(['resources/css/app.css', 'resources/scss/main.scss','resources/js/app.js'])
     </head>
     <body>
        @yield('content')

@@ -1,0 +1,189 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    height: 100vh;
+    margin: 0;
+}
+.full-height {
+    height: 100vh;
+}
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.position-ref {
+    position: relative;
+}
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+.content {
+    text-align: center;
+}
+.title {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 0;
+    letter-spacing: 5px;
+    color:#5e2195;
+}
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+footer{
+    background: #eee;
+    padding:20px;
+    text-align: center;
+    margin-top:auto;
+}
+h1{
+    font-size: 50px;
+}
+
+.wrapper{
+    max-width: 1140px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+/* create pizza form */
+
+.create-pizza{
+    background: #f7f7f7;
+    padding: 20px;
+    width: 100%;
+
+
+    label, select{
+        display: block;
+    }
+
+    label{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    select{
+        padding: 8px;
+        width: 200px;
+        border:none;
+    }
+
+    select:focus{
+        outline:none;
+    }
+
+    input[type=checkbox]{
+        margin: 10px;
+    }
+
+    input[type=text]{
+        padding: 10px;
+        background:transparent;
+        border-bottom: 2px solid black;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        font-size: 15px;
+    }
+
+    input[type=text]:focus{
+        outline: none;
+    }
+
+
+
+    input[type=submit]{
+        background: #5e2195;
+        padding: 8px 20px;
+        color: #fff;
+        border: 0;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    fieldset{
+        border: 0;
+        padding: 0;
+    }
+}
+
+/* pizza details page */
+
+.pizza-details{
+    background: #f7f7f7;
+    padding: 20px;
+
+    p{
+        margin: 20px 0;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .base-span{
+        color:red;
+    }
+
+    .type-span{
+        color:blue;
+    }
+
+    button{
+        background: #5e2195;
+        padding: 8px 20px;
+        color: #fff;
+        border: 0;
+        margin-top: 20px;
+    }
+}
+a.back{
+    display: block;
+    margin-top: 30px;
+    color: #5e2195;
+    margin-bottom: 20px;
+}
+
+/* pizza index page */
+
+.pizza-index{
+    h1{
+        margin-bottom: 40px;
+    }
+    .pizza-item{
+        margin: 10px 0;
+        padding: 12px;
+        background: #f4f4f4;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        img{
+            width: 80px;
+            display: inline-block;
+        }
+        h4{
+            display: inline-block;
+            font-weight: bold;
+            margin-left: 20px;
+            a{
+                font-size: 25px;
+                color: #777;
+                text-decoration: none !important;
+            }
+        }
+    }
+}
